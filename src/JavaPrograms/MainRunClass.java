@@ -14,9 +14,12 @@ public class MainRunClass {
 //        SquareRoot squareRoot = new SquareRoot();
 //        squareRoot.findSquareRoot();
 
-        ConvertRupeeToPaise convertRupeeToPaise = new ConvertRupeeToPaise();
-        float getPaisaValue = convertRupeeToPaise.readRupee();
-        convertRupeeToPaise.convertToPaise(getPaisaValue);
+//        ConvertRupeeToPaise convertRupeeToPaise = new ConvertRupeeToPaise();
+//        float getPaisaValue = convertRupeeToPaise.readRupee();
+//        convertRupeeToPaise.convertToPaise(getPaisaValue);
+
+        ConvertFarToCel convertFarToCel = new ConvertFarToCel();
+        convertFarToCel.convertToCelcius();
 
     }
 }
