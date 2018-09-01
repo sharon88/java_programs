@@ -7,8 +7,16 @@ public class MainRunClass {
 
     public static void main (String args[]){
         // print fibonaci series
-        FibonacciSeries printFibonacci=  new FibonacciSeries();
-        printFibonacci.printFiboancci();
+//        FibonacciSeries printFibonacci=  new FibonacciSeries();
+////        printFibonacci.printFiboancci();
+
+//       Finding the square root
+//        SquareRoot squareRoot = new SquareRoot();
+//        squareRoot.findSquareRoot();
+
+        ConvertRupeeToPaise convertRupeeToPaise = new ConvertRupeeToPaise();
+        float getPaisaValue = convertRupeeToPaise.readRupee();
+        convertRupeeToPaise.convertToPaise(getPaisaValue);
 
     }
 }
